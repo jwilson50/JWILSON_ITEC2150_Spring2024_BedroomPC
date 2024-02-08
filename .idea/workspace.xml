@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a840fd6b-8abf-4f0b-9a5c-e4297aeb6803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bedroom/Bed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bedroom/BuildBedroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bedroom/Ceiling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bedroom/Lamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bedroom/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PC/BuildAPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PC/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PC/Dimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PC/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PC/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PC/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PC/Resolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bedroom/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bedroom/Bedroom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bzyl4PSh8ze7e6P2injNOveyvF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BuildAPC.executor": "Run",
     "Application.BuildBedroom.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -48,10 +51,26 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.22932331",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BuildAPC">
+    <configuration name="BuildAPC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PC.BuildAPC" />
+      <module name="ITEC2150_Spring2024_BedroomPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuildBedroom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bedroom.BuildBedroom" />
       <module name="ITEC2150_Spring2024_BedroomPC" />
@@ -67,9 +86,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildAPC" />
         <item itemvalue="Application.BuildBedroom" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-corretto-20.0.2.1-f644763e9732-27d99999" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,6 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707232351232</updated>
       <workItem from="1707232352328" duration="3900000" />
+      <workItem from="1707242798786" duration="616000" />
+      <workItem from="1707404230210" duration="5953000" />
     </task>
     <servers />
   </component>
