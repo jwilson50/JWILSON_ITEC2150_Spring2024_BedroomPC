@@ -5,7 +5,6 @@ public class Bed {
     private String size ; //e.g.  Queen, King, Twin, Double  - null
     private String color;  // null
     private String materialsOfSheets; //cotton  - null
-    private int numberOfSheets; //1,2,3,4   --> default value of numberOfSheets 0
     private int numberOfPillows; //0
 
 
@@ -14,16 +13,14 @@ public class Bed {
         size = "Double";
         color = "White";
         materialsOfSheets = "Cotton";
-        numberOfSheets = 1;
         numberOfPillows = 1;
     }
 
     //this constructor takes 5 parameters
-    public Bed(String size, String color, String materialsOfSheets, int numberOfSheets, int numberOfPillows) {
+    public Bed(String size, String color, String materialsOfSheets, int numberOfPillows) {
         this.size = size;
         this.color = color;
         this.materialsOfSheets = materialsOfSheets;
-        this.numberOfSheets = numberOfSheets;
         this.numberOfPillows = numberOfPillows;
     }
 
@@ -45,10 +42,6 @@ public class Bed {
         return materialsOfSheets;
     }
 
-    public int getNumberOfSheets() {
-        return numberOfSheets;
-    }
-
     public int getNumberOfPillows() {
         return numberOfPillows;
     }
@@ -63,10 +56,6 @@ public class Bed {
 
     public void setMaterialsOfSheets(String materialsOfSheets) {
         this.materialsOfSheets = materialsOfSheets;
-    }
-
-    public void setNumberOfSheets(int numberOfSheets) {
-        this.numberOfSheets = numberOfSheets;
     }
 
     public void setNumberOfPillows(int numberOfPillows) {

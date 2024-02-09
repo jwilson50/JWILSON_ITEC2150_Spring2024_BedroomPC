@@ -20,8 +20,12 @@ public class BuildAPC {
          Monitor monitor = new Monitor("BBB",  resolution, 4,32 );
          PC ronoquadesPC = new PC(monitor, rCase,  motherboard);
 
+         Case tcase = new Case("Diamond/Platinum", new Dimension(16, 24, 8));
+         Motherboard tmother = new Motherboard("Hot tamales","a really good model",4,5,360);
+         PC TajPC = new PC(new Monitor("Hoover Vacuum", new Resolution(2560, 1440), 3,32), tcase, tmother);
 
         System.out.println("Richard's PC: " + richardPC);
         System.out.println("Ronoquade's PC: " + ronoquadesPC);
+        System.out.println("Taj's PC: " + TajPC);
     }
 }

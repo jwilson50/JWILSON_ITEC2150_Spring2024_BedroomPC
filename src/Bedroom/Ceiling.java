@@ -7,13 +7,15 @@ public class Ceiling {
     private double height;
     private String pattern; // e.g. popcorn ceiling
     private boolean isCeilingFan ;
+    private int vents;
 
-    public Ceiling(int numberOfOverheadLamps, String colorOfCeiling, double height, String pattern, boolean isCeilingFan) {
+    public Ceiling(int numberOfOverheadLamps, String colorOfCeiling, double height, String pattern, boolean isCeilingFan, int vents) {
         this.numberOfOverheadLamps = numberOfOverheadLamps;
         this.colorOfCeiling = colorOfCeiling;
         this.height = height;
         this.pattern = pattern;
         this.isCeilingFan = isCeilingFan;
+        this.vents = vents;
     }
 
     public int getNumberOfOverheadLamps() {
@@ -56,5 +58,11 @@ public class Ceiling {
         isCeilingFan = ceilingFan;
     }
 
+    public int getVents() {
+        return vents;
+    }
 
+    public void setVents(int vents) {
+        this.vents = vents;
+    }
 }

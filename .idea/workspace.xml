@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a840fd6b-8abf-4f0b-9a5c-e4297aeb6803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PC/BuildAPC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/Dimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/Motherboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/Resolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bedroom/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bedroom/Bed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bedroom/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bedroom/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bedroom/BuildBedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bedroom/BuildBedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bedroom/Ceiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bedroom/Ceiling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PC/BuildAPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PC/BuildAPC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -39,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BuildAPC.executor": "Run",
-    "Application.BuildBedroom.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.22932331",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BuildAPC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuildBedroom.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.22932331&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.BuildAPC">
     <configuration name="BuildAPC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PC.BuildAPC" />

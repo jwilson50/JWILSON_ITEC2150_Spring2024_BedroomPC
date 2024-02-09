@@ -120,6 +120,6 @@ public class Bedroom {
 
     @Override
     public String toString() {
-        return  "From Bedroom class: name:  " + name  + "\nInformation about Direction of Walls: " + wall1 + ", " + wall2 + ", " + wall3 + ", " + wall4 ;
+        return  "From Bedroom class: name:  " + name  + "\nInformation about Direction of Walls: " + wall1 + ", " + wall2 + ", " + wall3 + ", " + wall4 + "\n" + bed;
     }
 }
