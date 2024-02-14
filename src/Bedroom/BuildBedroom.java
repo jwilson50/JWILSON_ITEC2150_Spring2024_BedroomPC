@@ -18,9 +18,9 @@ public class BuildBedroom {
         //public Lamp(String color, double length, int lumens) {
         Bedroom farhana = new Bedroom("Bedroom", wall1, wall2, wall3, wall4, ceiling, new Bed("Queen","Grey","Cotton",2), new Lamp("White",1.5, 50));
 
-        Bedroom Taj = new Bedroom("Mi casa", wall1, wall2, wall3, wall4,nCeiling, new Bed("Twin XL","Blue","Satin",3), new Lamp("Turquiose", 1, 65));
+        Bedroom Wilson = new Bedroom("Mi casa", wall1, wall2, wall3, wall4,nCeiling, new Bed("Twin XL","Blue","Satin",3), new Lamp("Turquiose", 1, 65));
         System.out.println(farhana);
-        System.out.println(Taj);
+        System.out.println(Wilson);
 
 
 
